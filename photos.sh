@@ -17,7 +17,7 @@ rclone copy "/home/ecoinnovate//${FILE_NAME}" "${ALBUM_PATH}"
 
 if [ $? -eq 0 ]; then
   # Remove the local file if the upload is successful
-  sudo rm "/home/birdbox/${FILE_NAME}"
+  sudo rm "/home/ecoinnovate/${FILE_NAME}"
 else
   # Send an email if there is an error uploading
   echo "from your bestie, the pi" | mail -s "Pi photos not sending" birdboxer@example.com
