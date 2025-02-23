@@ -1,8 +1,7 @@
-#TO CODE A BIRDBOX OF YOUR OWN, DOWNLOAD THE FOLLOWING AND FLASH IT USING ETCHER ONTO A 32 GB SD CARD (Made for Raspberry Pi Zero 2W)
-#https://drive.google.com/file/d/1T4aFk8MBDHWIIWcWYR6T8ve-Nz1Tw_ez/view?usp=sharing
+#TO CODE A BIRDBOX OF YOUR OWN, DOWNLOAD THE FOLLOWING, UNZIP, AND FLASH IT USING ETCHER ONTO A 32 GB SD CARD (Made for Raspberry Pi Zero 2W)
+#https://drive.google.com/file/d/1s24xcA85uRHnOF9Y7Jf26zW1SbQob7kT/view?usp=sharing
 #Once Downloaded:
 # edit the photos.sh file via ssh to match the current credentials, version, album name
-    #ALSO MODIFY photos.sh TO THE CURRENT VERSION ON GITHUB IF IT IS NOT ALREADY!!!
-#configure in any wifi you need
+#configure in any wifi you need; default on here is FUSD Cutover 
 #create a static ip if needed- the default on there alr is 10.0.0.100
-#fill in the blanks if needed- this file was used for winter workshop 
+#add in any blanks you need if using for workshop
