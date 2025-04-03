@@ -16,6 +16,8 @@ while true; do
   # Copy image to album
   rclone copy "/home/ecoinnovate/${FILE_NAME}" "${ALBUM_PATH}"
 
+#______FOR SPRING WORKSHOP, CUT THIS OUT_________
+
   if [ $? -eq 0 ]; then
     # Remove the local file if the upload is successful
     sudo rm "/home/ecoinnovate/${FILE_NAME}"
@@ -23,6 +25,7 @@ while true; do
     # Send an email if there is an error uploading
     echo "from your bestie, the pi" | mail -s "Pi photos not sending" birdboxers11124@gmail.com
   fi
+#_______________________________________________
 
   # Wait for 3 minutes before running again
   sleep 180
